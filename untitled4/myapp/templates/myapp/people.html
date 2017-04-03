@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People</title>
+</head>
+<body>
+<h1>People (Ninjin)</h1>
+{% for person in object_list %}
+<p>{{ person.name }} - {{ person.age }}</p>
+{% endfor %}
+</body>
+</html>
